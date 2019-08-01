@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ff447c97-411b-45bc-969d-6137b95caf17": {
+        "id": "ff447c97-411b-45bc-969d-6137b95caf17",
+        "parent": null,
+        "name": "hiru0108_vcscommit",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "add24f51-cb6c-42ff-9cb1-23151dc8a966"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru0108_vcscommit"
+      },
+      "add24f51-cb6c-42ff-9cb1-23151dc8a966": {
+        "id": "add24f51-cb6c-42ff-9cb1-23151dc8a966",
+        "parent": "ff447c97-411b-45bc-969d-6137b95caf17",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru0108_vcscommit/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "ff447c97-411b-45bc-969d-6137b95caf17",
+    "openFiles": [
+      "add24f51-cb6c-42ff-9cb1-23151dc8a966"
+    ],
+    "currentFileId": "add24f51-cb6c-42ff-9cb1-23151dc8a966",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru0108_vcscommit",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564658584950
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru0108_vcscommit",
+      "url": "https://github.com/HirudineeADRT/hiru0108_vcscommit",
+      "branches": []
+    }
+  }
+}
